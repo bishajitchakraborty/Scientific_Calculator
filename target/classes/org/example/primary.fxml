@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrimaryController">
+   <children>
+      <TextField fx:id="displayField" />
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#sqrthandleaction" prefHeight="26.0" prefWidth="100.0" text="Sqrt" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#pihandleaction" prefHeight="26.0" prefWidth="100.0" text="Pi" GridPane.columnIndex="1" />
+            <Button mnemonicParsing="false" onAction="#ehandleaction" prefHeight="26.0" prefWidth="100.0" text="e" GridPane.columnIndex="2" />
+            <Button layoutX="210.0" layoutY="12.0" mnemonicParsing="false" onAction="#sinhandleaction" prefHeight="26.0" prefWidth="100.0" text="Sin" GridPane.columnIndex="3" />
+            <Button layoutX="310.0" layoutY="12.0" mnemonicParsing="false" onAction="#fectrorialhandleaction" prefHeight="26.0" prefWidth="100.0" text="x!" GridPane.columnIndex="4" />
+            <Button layoutX="410.0" layoutY="12.0" mnemonicParsing="false" onAction="#eighthandleaction" prefHeight="26.0" prefWidth="100.0" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button layoutX="10.0" layoutY="12.0" mnemonicParsing="false" onAction="#sevenhandleaction" prefHeight="26.0" prefWidth="100.0" text="7" GridPane.rowIndex="2" />
+            <Button layoutX="210.0" layoutY="12.0" mnemonicParsing="false" onAction="#ninehandleaction" prefHeight="26.0" prefWidth="100.0" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button layoutX="210.0" layoutY="42.0" mnemonicParsing="false" onAction="#coshandleaction" prefHeight="26.0" prefWidth="100.0" text="Cos" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button layoutX="310.0" layoutY="42.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Button" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button layoutX="10.0" layoutY="42.0" mnemonicParsing="false" onAction="#fourhandleaction" prefHeight="26.0" prefWidth="100.0" text="4" GridPane.rowIndex="3" />
+            <Button layoutX="10.0" layoutY="72.0" mnemonicParsing="false" onAction="#fivehandleaction" prefHeight="26.0" prefWidth="100.0" text="5" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button layoutX="210.0" layoutY="42.0" mnemonicParsing="false" onAction="#sixhandleaction" prefHeight="26.0" prefWidth="100.0" text="6" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button layoutX="310.0" layoutY="42.0" mnemonicParsing="false" onAction="#tanhandleaction" prefHeight="26.0" prefWidth="100.0" text="Tan" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button layoutX="410.0" layoutY="42.0" mnemonicParsing="false" onAction="#onehandleaction" prefHeight="26.0" prefWidth="100.0" text="1" GridPane.rowIndex="4" />
+            <Button layoutX="110.0" layoutY="72.0" mnemonicParsing="false" onAction="#twohandleaction" prefHeight="26.0" prefWidth="100.0" text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button layoutX="210.0" layoutY="72.0" mnemonicParsing="false" onAction="#log10handleaction" prefHeight="26.0" prefWidth="100.0" text="Log10" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button layoutX="310.0" layoutY="102.0" mnemonicParsing="false" onAction="#threehandleaction" prefHeight="26.0" prefWidth="100.0" text="3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button layoutX="310.0" layoutY="102.0" mnemonicParsing="false" onAction="#squarehandleaction" prefHeight="26.0" prefWidth="100.0" text="x^2" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button layoutX="410.0" layoutY="102.0" mnemonicParsing="false" onAction="#nprhandleaction" prefHeight="26.0" prefWidth="100.0" text="npr" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button layoutX="10.0" layoutY="102.0" mnemonicParsing="false" onAction="#singlezerohandleaction" prefHeight="26.0" prefWidth="100.0" text="0" GridPane.rowIndex="5" />
+            <Button layoutX="110.0" layoutY="102.0" mnemonicParsing="false" onAction="#ncrhandleaction" prefHeight="26.0" prefWidth="100.0" text="ncr" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button layoutX="410.0" layoutY="102.0" mnemonicParsing="false" onAction="#modulashandleaction" prefHeight="26.0" prefWidth="100.0" text="\%" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+            <Button layoutX="310.0" layoutY="102.0" mnemonicParsing="false" onAction="#log2handleaction" prefHeight="26.0" prefWidth="100.0" text="Log2" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button layoutX="210.0" layoutY="102.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Arg" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Button layoutX="110.0" layoutY="102.0" mnemonicParsing="false" onAction="#doublezerohandleaction" prefHeight="26.0" prefWidth="100.0" text="00" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <Button layoutX="410.0" layoutY="12.0" mnemonicParsing="false" onAction="#clearhandleaction" prefHeight="26.0" prefWidth="100.0" text="CLE" GridPane.columnIndex="5" />
+            <Button layoutX="410.0" layoutY="42.0" mnemonicParsing="false" onAction="#addhandleaction" prefHeight="26.0" prefWidth="100.0" text="+" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+            <Button layoutX="410.0" layoutY="72.0" mnemonicParsing="false" onAction="#subhandleaction" prefHeight="26.0" prefWidth="100.0" text="-" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <Button layoutX="510.0" layoutY="72.0" mnemonicParsing="false" onAction="#mulhandleaction" prefHeight="26.0" prefWidth="100.0" text="*" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Button layoutX="410.0" layoutY="102.0" mnemonicParsing="false" onAction="#divhandleaction" prefHeight="26.0" prefWidth="100.0" text="/" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <Button layoutX="110.0" layoutY="12.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="100.0" text="Pi" />
+            <Button layoutX="10.0" layoutY="42.0" mnemonicParsing="false" onAction="#lnhandleaction" prefHeight="26.0" prefWidth="100.0" text="ln" />
+            <Button mnemonicParsing="false" onAction="#xpoweryhandleaction" prefHeight="26.0" prefWidth="103.0" text="x^y" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#pointhandleaction" prefHeight="26.0" prefWidth="101.0" text="." GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#equelhandleaction" prefHeight="26.0" prefWidth="101.0" text="=" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="102.0" text="a*b" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+            <Button mnemonicParsing="false" onAction="#absolutehandleaction" prefHeight="26.0" prefWidth="107.0" text="|x|" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+         </children>
+      </GridPane>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
